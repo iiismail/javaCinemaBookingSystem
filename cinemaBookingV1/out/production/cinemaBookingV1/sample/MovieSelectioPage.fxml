@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MovieSelectionPageControllor">
+    <children>
+        <ScrollPane prefHeight="600.0" prefWidth="1000.0">
+            <content>
+                <VBox prefHeight="585.0" prefWidth="999.0">
+                    <children>
+                        <Label prefHeight="64.0" prefWidth="999.0" text="         Please select a movie:" textFill="#5b4e4e">
+                            <font>
+                                <Font size="50.0" />
+                            </font>
+                        </Label>
+                        <HBox prefHeight="193.0" prefWidth="999.0">
+                            <children>
+                                <StackPane alignment="BOTTOM_CENTER" prefHeight="159.0" prefWidth="200.0">
+                                    <children>
+                                        <ImageView fx:id="matrixImage" fitHeight="164.0" fitWidth="107.0" onMouseClicked="#openMatrix" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                                            <image>
+                                                <Image url="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BASELINE_RIGHT" contentDisplay="BOTTOM" text="The Matrix (1999)" />
+                                    </children>
+                                </StackPane>
+                                <StackPane alignment="BOTTOM_CENTER" prefHeight="159.0" prefWidth="200.0">
+                                    <children>
+                                        <ImageView fx:id="avatarImage" fitHeight="164.0" fitWidth="107.0" onMouseClicked="#openMatrix" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                                            <image>
+                                                <Image url="https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BASELINE_RIGHT" contentDisplay="BOTTOM" text="Avatar (2009)" />
+
+                                    </children></StackPane>
+                                <StackPane alignment="BOTTOM_CENTER" prefHeight="159.0" prefWidth="200.0">
+                                    <children>
+                                        <ImageView fx:id="marvelImage" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#openMatrix" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                                            <image>
+                                                <Image url="https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_SX300.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BASELINE_RIGHT" contentDisplay="BOTTOM" text="Captain Marvel (2019)" />
+                                    </children></StackPane>
+                                <StackPane alignment="BOTTOM_CENTER" prefHeight="159.0" prefWidth="200.0">
+                                    <children>
+                                        <ImageView fx:id="aquamanImage" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#openMatrix" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                                            <image>
+                                                <Image url="https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SX300.jpg&quot;,&quot;Ratings&quot;:[{&quot;Source&quot;:&quot;Internet Movie Database&quot;,&quot;Value&quot;:&quot;7.4/10" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BASELINE_RIGHT" contentDisplay="BOTTOM" text="Aquaman (2018)" />
+                                    </children></StackPane>
+                                <StackPane alignment="BOTTOM_CENTER" prefHeight="159.0" prefWidth="200.0">
+                                    <children>
+                                        <ImageView fx:id="hellboyImage" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#openMatrix" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                                            <image>
+                                                <Image url="https://m.media-amazon.com/images/M/MV5BYTMyYjg0MTItYTcyZS00MmRiLWIxNWQtYTRiZjRkYWMxZGNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg" />
+                                            </image></ImageView>
+                                        <Label alignment="BASELINE_RIGHT" contentDisplay="BOTTOM" text="Hellboy (2019)" />
+                                    </children></StackPane>
+                            </children>
+                        </HBox>
+                  <AnchorPane prefHeight="313.0" prefWidth="999.0">
+                     <children>
+                        <ImageView fitHeight="185.0" fitWidth="156.0" layoutX="30.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="176.0" fitWidth="172.0" layoutX="272.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="173.0" fitWidth="169.0" layoutX="535.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="165.0" fitWidth="154.0" layoutX="771.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label layoutX="80.0" layoutY="271.0" text="Label" />
+                        <Label layoutX="324.0" layoutY="263.0" text="Label" />
+                        <Label layoutX="576.0" layoutY="271.0" text="Label" />
+                        <Label layoutX="834.0" layoutY="271.0" text="Label" />
+                     </children>
+                  </AnchorPane>
+                    </children>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
